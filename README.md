@@ -1,7 +1,9 @@
 HandleImage
 =================
 
-![Scheme](/readmeImages/Screenshot_1480816607.png)
+![Scheme](/readmeImages/device-2017-04-07-170730.png)
+![Scheme](/readmeImages/device-2017-04-07-170814.png)
+![Scheme](/readmeImages/device-2017-04-07-170847.png)
 
 Android application to learn:
 
