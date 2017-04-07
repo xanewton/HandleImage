@@ -17,9 +17,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.xengar.android.handleimage.MainActivity">
+
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_split"
+        android:orderInCategory="101"
+        android:title="@string/action_split_image"
+        app:showAsAction="never" />
+
+
 </menu>
