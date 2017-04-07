@@ -24,7 +24,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -34,9 +34,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SplitImageActivity"
+            android:name=".ui.SplitImageActivity"
             android:label="@string/title_activity_split_image"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.SmallImageActivity">
+
+        </activity>
     </application>
 
 </manifest>

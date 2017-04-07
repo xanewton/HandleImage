@@ -20,7 +20,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.xengar.android.handleimage.SplitImageActivity">
+    tools:context="com.xengar.android.handleimage.ui.SplitImageActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -44,18 +44,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="com.xengar.android.handleimage.SplitImageActivity"
+        tools:context="com.xengar.android.handleimage.ui.SplitImageActivity"
         tools:showIn="@layout/activity_split_image">
 
-    </android.support.constraint.ConstraintLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <ImageView android:src="@drawable/gallery_lion"
+                android:id="@+id/source_image"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
 
-    <!--
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" /> -->
+            <Button android:id="@+id/small_image"
+                android:text="Split Image in small images"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"/>
+
+
+
+        </RelativeLayout>
+
+    </android.support.constraint.ConstraintLayout>
 
 </android.support.design.widget.CoordinatorLayout>
