@@ -3,6 +3,7 @@ HandleImage
 
 ![Scheme](/readmeImages/device-2017-04-07-170730.png)
 ![Scheme](/readmeImages/device-2017-04-07-170814.png)
+![Scheme](/readmeImages/device-2017-04-07-180440.png)
 ![Scheme](/readmeImages/device-2017-04-07-170847.png)
 
 Android application to learn:
@@ -12,9 +13,7 @@ Android application to learn:
 
 - Drag and position images
   Based on [Tutorial](http://www.devexchanges.info/2015/03/simple-moving-object-with-touch-events.html)
-  Based on [Comment](http://gaddamsraj.blogspot.mx/2014/05/move-image-with-finger-touch-inside.html)
-  Based on [Comment](http://stackoverflow.com/questions/6262084/how-to-slide-image-with-finger-touch-in-android)
-  Based on [Comment](http://stackoverflow.com/questions/16557076/how-to-smoothly-move-a-image-view-with-users-finger-on-android-emulator)
+  Based on [Tutorial](http://thegeekyland.blogspot.mx/2015/12/android-animations-explained.html)
 
 
 Pre-requisites
