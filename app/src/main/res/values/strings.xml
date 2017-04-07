@@ -16,6 +16,8 @@
 <resources>
     <string name="app_name">HandleImage</string>
     <string name="action_settings">Settings</string>
-    <string name="action_split_image">Split Image</string>
+    <string name="split_image">Split Image</string>
+    <string name="drag_image">Drag Image</string>
     <string name="title_activity_split_image">SplitImageActivity</string>
+    <string name="title_activity_drag_image">DragImageActivity</string>
 </resources>

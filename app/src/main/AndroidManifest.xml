@@ -38,7 +38,11 @@
             android:label="@string/title_activity_split_image"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ui.SmallImageActivity">
-
+        </activity>
+        <activity
+            android:name=".ui.DragImageActivity"
+            android:label="@string/title_activity_drag_image"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 

@@ -27,8 +27,13 @@
     <item
         android:id="@+id/action_split"
         android:orderInCategory="101"
-        android:title="@string/action_split_image"
+        android:title="@string/split_image"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_drag"
+        android:orderInCategory="102"
+        android:title="@string/drag_image"
+        app:showAsAction="never" />
 
 </menu>

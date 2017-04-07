@@ -45,6 +45,14 @@ public class MainActivity extends AppCompatActivity {
                 launchSplit();
             }
         });
+
+        button = (Button) findViewById(R.id.drag);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                launchDrag();
+            }
+        });
     }
 
     @Override
@@ -69,6 +77,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_split:
                 launchSplit();
                 return true;
+
+            case R.id.action_drag:
+                launchDrag();
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
@@ -76,5 +88,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchSplit(){
         ActivityUtils.launchSplitActivity(getApplicationContext());
+    }
+
+    private void launchDrag(){
+        ActivityUtils.launchDragActivity(getApplicationContext());
     }
 }

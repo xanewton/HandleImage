@@ -61,6 +61,7 @@ public class SmallImageActivity extends AppCompatActivity {
 
     /**
      * Source: http://www.allappsdevelopers.com/TopicDetail.aspx?TopicID=dbf042fc-80be-4eca-9b7c-c0273ae2e8d9
+     * Non tested alternative: http://stackoverflow.com/questions/5650740/divide-image-into-parts
      * Splits the source image and show them all into a grid in a new activity
      * @param image The source image to split
      * @param smallimage_Numbers The target number of small image smallimage_s to be formed from the source image
