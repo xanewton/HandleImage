@@ -1,4 +1,4 @@
-package com.xengar.android.splitimage;
+package com.xengar.android.handleimage;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

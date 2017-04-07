@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.xengar.android.splitimage"
+        applicationId "com.xengar.android.handleimage"
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 1

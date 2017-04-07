@@ -1,4 +1,4 @@
-package com.xengar.android.splitimage;
+package com.xengar.android.handleimage;
 
 import org.junit.Test;
 

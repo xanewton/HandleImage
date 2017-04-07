@@ -1,21 +1,25 @@
-Stock Tracker
-========
+HandleImage
+=================
 
 ![Scheme](/readmeImages/Screenshot_1480816607.png)
-![Scheme](/readmeImages/Screenshot_1481406578.png)
-![Scheme](/readmeImages/Screenshot_1481661113.png)
-![Scheme](/readmeImages/Screenshot_1481656375.png)
-![Scheme](/readmeImages/Screenshot_1481656355.png)
 
-Synchronizes stock information on Android Phones and Tablets.
-Based on [StockHawk](https://github.com/udacity/StockHawk).
+Android application to learn:
+
+- Split images.
+  Based on [Tutorial](http://www.allappsdevelopers.com/TopicDetail.aspx?TopicID=dbf042fc-80be-4eca-9b7c-c0273ae2e8d9).
+  Based on [Comment](http://gaddamsraj.blogspot.mx/2014/05/move-image-with-finger-touch-inside.html)
+  Based on [Comment](http://stackoverflow.com/questions/5650740/divide-image-into-parts)
+
+- Drag and position images
+  Based on [Tutorial](http://www.devexchanges.info/2015/03/simple-moving-object-with-touch-events.html)
+  Based on [Comment](http://gaddamsraj.blogspot.mx/2014/05/move-image-with-finger-touch-inside.html)
+  Based on [Comment](http://stackoverflow.com/questions/6262084/how-to-slide-image-with-finger-touch-in-android)
+  Based on [Comment](http://stackoverflow.com/questions/16557076/how-to-smoothly-move-a-image-view-with-users-finger-on-android-emulator)
 
 
 Pre-requisites
 --------------
-- Android SDK 25 or Higher
-- YahooFinanceAPI 3.5.0
-- MPAndroidChart v3.0.1
+- None
 
 
 License
