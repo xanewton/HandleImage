@@ -53,6 +53,14 @@ public class MainActivity extends AppCompatActivity {
                 launchDrag();
             }
         });
+
+        button = (Button) findViewById(R.id.dragdrop);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                launchDragAndDrop();
+            }
+        });
     }
 
     @Override
@@ -81,6 +89,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_drag:
                 launchDrag();
                 return true;
+
+            case R.id.action_drag_drop:
+                launchDragAndDrop();
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
@@ -92,5 +104,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchDrag(){
         ActivityUtils.launchDragActivity(getApplicationContext());
+    }
+
+    private void launchDragAndDrop(){
+        ActivityUtils.launchDragAndDropActivity(getApplicationContext());
     }
 }

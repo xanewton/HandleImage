@@ -18,6 +18,7 @@ package com.xengar.android.handleimage.utils;
 import android.content.Context;
 import android.content.Intent;
 
+import com.xengar.android.handleimage.ui.DragAndDropActivity;
 import com.xengar.android.handleimage.ui.DragImageActivity;
 import com.xengar.android.handleimage.ui.SmallImageActivity;
 import com.xengar.android.handleimage.ui.SplitImageActivity;
@@ -56,6 +57,16 @@ public class ActivityUtils {
      */
     public static void launchDragActivity(final Context context) {
         Intent intent = new Intent(context, DragImageActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(intent);
+    }
+
+    /**
+     * Launches the activity.
+     * @param context Context
+     */
+    public static void launchDragAndDropActivity(final Context context) {
+        Intent intent = new Intent(context, DragAndDropActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
     }

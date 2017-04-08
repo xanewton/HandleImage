@@ -15,6 +15,10 @@ Android application to learn:
   Based on [Tutorial](http://www.devexchanges.info/2015/03/simple-moving-object-with-touch-events.html)
   Based on [Tutorial](http://thegeekyland.blogspot.mx/2015/12/android-animations-explained.html)
 
+- Drag and drop
+  Based on [Tutorial](http://www.vogella.com/tutorials/AndroidDragAndDrop/article.html)
+  Based on [Documentation](https://developer.android.com/guide/topics/ui/drag-drop.html)
+
 
 Pre-requisites
 --------------

@@ -36,4 +36,10 @@
         android:title="@string/drag_image"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_drag_drop"
+        android:orderInCategory="102"
+        android:title="@string/drag_and_drop"
+        app:showAsAction="never" />
+
 </menu>
