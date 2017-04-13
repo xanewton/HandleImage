@@ -37,15 +37,19 @@
             android:name=".ui.SplitImageActivity"
             android:label="@string/title_activity_split_image"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ui.SmallImageActivity"></activity>
+        <activity android:name=".ui.SmallImageActivity" />
         <activity
             android:name=".ui.DragImageActivity"
             android:label="@string/title_activity_drag_image"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ui.DragAndDropActivity"
             android:label="@string/title_activity_drag_and_drop"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.DropOutsideActivity"
+            android:label="@string/title_activity_drop_outside"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

@@ -61,6 +61,14 @@ public class MainActivity extends AppCompatActivity {
                 launchDragAndDrop();
             }
         });
+
+        button = (Button) findViewById(R.id.dropoutisde);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                launchDropOutside();
+            }
+        });
     }
 
     @Override
@@ -93,6 +101,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_drag_drop:
                 launchDragAndDrop();
                 return true;
+
+            case R.id.action_drop_outside:
+                launchDropOutside();
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
@@ -108,5 +120,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchDragAndDrop(){
         ActivityUtils.launchDragAndDropActivity(getApplicationContext());
+    }
+
+    private void launchDropOutside(){
+        ActivityUtils.launchDropOutsideActivity(getApplicationContext());
     }
 }

@@ -42,4 +42,10 @@
         android:title="@string/drag_and_drop"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_drop_outside"
+        android:orderInCategory="102"
+        android:title="@string/drop_outside"
+        app:showAsAction="never" />
+
 </menu>

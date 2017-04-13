@@ -68,7 +68,7 @@
                     android:id="@+id/myimage1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_ac_unit_black_24dp" />
+                    android:src="@drawable/gallery_lion" />
             </LinearLayout>
 
             <LinearLayout
@@ -81,7 +81,7 @@
                     android:id="@+id/myimage2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_ac_unit_black_24dp" />
+                    android:src="@drawable/gallery_lion" />
             </LinearLayout>
 
             <LinearLayout
@@ -94,7 +94,7 @@
                     android:id="@+id/myimage3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_ac_unit_black_24dp" />
+                    android:src="@drawable/gallery_lion" />
             </LinearLayout>
 
             <LinearLayout
@@ -107,7 +107,7 @@
                     android:id="@+id/myimage4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_ac_unit_black_24dp" />
+                    android:src="@drawable/gallery_lion" />
             </LinearLayout>
 
         </GridLayout>

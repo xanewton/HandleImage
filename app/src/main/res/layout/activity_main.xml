@@ -69,6 +69,15 @@
             android:text="@string/drag_and_drop"
             android:textColor="@color/white" />
 
+        <Button
+            android:id="@+id/dropoutisde"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            android:text="@string/drop_outside"
+            android:textColor="@color/white" />
+
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>

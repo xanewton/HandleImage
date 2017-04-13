@@ -20,6 +20,7 @@ import android.content.Intent;
 
 import com.xengar.android.handleimage.ui.DragAndDropActivity;
 import com.xengar.android.handleimage.ui.DragImageActivity;
+import com.xengar.android.handleimage.ui.DropOutsideActivity;
 import com.xengar.android.handleimage.ui.SmallImageActivity;
 import com.xengar.android.handleimage.ui.SplitImageActivity;
 
@@ -70,4 +71,15 @@ public class ActivityUtils {
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
     }
+
+    /**
+     * Launches the activity.
+     * @param context Context
+     */
+    public static void launchDropOutsideActivity(final Context context) {
+        Intent intent = new Intent(context, DropOutsideActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(intent);
+    }
+
 }
