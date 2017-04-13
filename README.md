@@ -19,6 +19,11 @@ Android application to learn:
   Based on [Tutorial](http://www.vogella.com/tutorials/AndroidDragAndDrop/article.html)
   Based on [Documentation](https://developer.android.com/guide/topics/ui/drag-drop.html)
 
+- Drop outside view
+  Based on [question](http://stackoverflow.com/questions/26911748/how-to-detect-drop-outside-draggable-views-in-android)
+  Based on [Documentation](https://developer.android.com/reference/android/view/DragEvent.html#getResult%28%29)
+
+
 
 Pre-requisites
 --------------

@@ -86,6 +86,7 @@ public class DragAndDropActivity extends AppCompatActivity {
 
         @Override
         public boolean onDrag(View v, DragEvent event) {
+            View view;
             int action = event.getAction();
             switch (event.getAction()) {
                 case DragEvent.ACTION_DRAG_STARTED:
@@ -99,15 +100,19 @@ public class DragAndDropActivity extends AppCompatActivity {
                     break;
                 case DragEvent.ACTION_DROP:
                     // Dropped, reassign View to ViewGroup
-                    View view = (View) event.getLocalState();
+                    view = (View) event.getLocalState();
                     ViewGroup owner = (ViewGroup) view.getParent();
                     owner.removeView(view);
                     LinearLayout container = (LinearLayout) v;
                     container.addView(view);
-                    view.setVisibility(View.VISIBLE);
+                    //view.setVisibility(View.VISIBLE);
                     break;
                 case DragEvent.ACTION_DRAG_ENDED:
                     v.setBackgroundDrawable(normalShape);
+                    // Regardless of valid or invalid drop show it again.
+                    // See https://developer.android.com/reference/android/view/DragEvent.html#ACTION_DRAG_ENDED
+                    view = (View) event.getLocalState();
+                    view.setVisibility(View.VISIBLE);
                 default:
                     break;
             }
