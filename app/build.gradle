@@ -10,6 +10,16 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        // Define FileProvider for Sharing Images
+        // Sources
+        // https://medium.com/google-developers/sharing-content-between-android-apps-2e6db9d1368b
+        // https://www.youtube.com/watch?v=C28pvd2plBA
+        def filesAuthorityValue = applicationId + ".files"
+        // Now we can use ${filesAuthority} in our Manifest
+        manifestPlaceholders = [filesAuthority : filesAuthorityValue]
+        // Now we can use BuildConfig.FILES_AUTHORITY in our code
+        buildConfigField "String", "FILES_AUTHORITY", "\"${filesAuthorityValue}\""
     }
     buildTypes {
         release {

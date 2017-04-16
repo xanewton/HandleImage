@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- new File(getFilesDir(), "internal") -->
+    <files-path name="private" path="internal/"/>
+
+    <!-- new File(getCacheDir(), "images") -->
+    <cache-path name="image_cache" path="images/"/>
+
+    <!-- new File(getExternalFilesDir(), "files") -->
+    <external-path name="external_files" path="files/"/>
+</paths>

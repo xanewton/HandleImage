@@ -50,6 +50,17 @@
             android:name=".ui.DropOutsideActivity"
             android:label="@string/title_activity_drop_outside"
             android:theme="@style/AppTheme.NoActionBar"/>
+
+        <!-- File Provider for Sharing images -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${filesAuthority}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 
 </manifest>

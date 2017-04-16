@@ -48,4 +48,10 @@
         android:title="@string/drop_outside"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/share"
+        android:orderInCategory="104"
+        app:showAsAction="never" />
+
 </menu>
