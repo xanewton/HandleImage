@@ -32,7 +32,7 @@ Pre-requisites
 
 License
 -------
-Copyright 2017 Angel Garcia
+Copyright 2017 Angel Newton
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
